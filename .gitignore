@@ -1,0 +1,14 @@
+# Python / backend
+health-check-backend/.venv/
+health-check-backend/__pycache__/
+health-check-backend/**/__pycache__/
+health-check-backend/*.db
+health-check-backend/*.log
+*.pyc
+
+# Node / frontend (frontend also has its own .gitignore)
+health-check-frontend/node_modules/
+health-check-frontend/*.log
+
+# Local tooling config, not part of the app
+.claude/

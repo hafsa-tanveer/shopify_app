@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-shopify-green: #008060;
+  --color-shopify-green-hover: #00735a;
+  --color-shopify-green-badge: #22a06b;
+  --color-shopify-red: #d82c0d;
+  --color-shopify-red-bg: #fdecea;
+  --color-shopify-amber: #b98900;
+  --color-shopify-amber-bg: #fdf5e6;
+  --color-shopify-blue: #2c6ecb;
+  --color-shopify-bg: #f1f2f4;
+  --color-shopify-card: #ffffff;
+  --color-shopify-border: #e1e3e5;
+  --color-shopify-border-2: #d2d5d8;
+  --color-shopify-sub: #6d7175;
+  --color-shopify-ink: #1a1a1a;
+  --color-shopify-ink-2: #303336;
+  --color-shopify-appbar: #1a1a1a;
+}
+
+body {
+  color-scheme: light;
+  background-color: var(--color-shopify-bg);
+}
