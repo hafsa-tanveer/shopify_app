@@ -73,6 +73,3 @@ export function categoryForFilterType(type) {
 export function descriptionForQualityType(type) {
   return QUALITY_TYPES.find((t) => t.type === type)?.description ?? "";
 }
-
-// Kept for any old callers — same as labelForFilterType.
-export const labelForConflictType = labelForFilterType;
